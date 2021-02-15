@@ -1,0 +1,50 @@
+
+.section-1 {
+    box-shadow:1px 2px 1px  silver;
+    background-color: rgb(236, 253, 239);
+    outline: dotted rgb(19, 43, 43);
+}
+
+.section-3, .section-2, .section-4, .section-5{
+    background-color:  rgb(247, 255, 248);
+    box-shadow:1px 3px 1px silver;
+    font-size: x-large;
+    text-transform: capitalize;
+    text-shadow: 1px 1px green;
+}
+.section-5 { 
+    text-align: center;
+    text-decoration: underline black;
+    padding: 5%;
+}
+.footer1 {
+       background-color: rgb(60, 91, 94);
+       color: floralwhite;
+       border-radius:2px 2px 4px 4px;
+       box-shadow:1px 3px 2px 4px rgb(17, 104, 104) ;
+       padding-bottom: 1%;
+       padding-left: 1%;
+       font-size: x-large;
+       text-align: center;
+}
+
+a:hover {
+    background-color: rgb(43, 65, 64);
+}
+a {
+    color: black;
+}
+
+table {width: 50%;
+    text-align: center; 
+    font-size: x-large;
+}
+th,td {
+    border:2px solid black;
+    width: 50%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(29, 51, 50);
+    color: oldlace;
+}

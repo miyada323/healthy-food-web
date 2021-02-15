@@ -1,0 +1,62 @@
+
+.form-center {
+    margin: auto;
+    text-align: center;
+
+}
+
+.card {
+    border: 1px solid silver;
+    box-shadow: 0px 5px 5px silver;
+    margin: auto;
+    width: 50%;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+/* .birth-container  {
+    display: inline-block;
+} */
+.btn-primary {
+    padding: 15px;
+    border-radius: 3px;
+    color: white;
+    background-color: #4e4c4c;
+    border: 0px;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+nav > ul > li {
+    display: inline-block;
+    transition: 3s ease-in-out;
+    height: 100%;
+}
+nav {
+    padding: 20px;
+    transition: 2s ease-in-out;
+
+}
+nav > ul > li > a {
+    padding: 15px;
+    color: white;
+    background-color: rgb(58, 75, 73);
+    text-decoration: none;
+}
+nav > ul > li :hover {
+    transform: rotateX(150deg);
+}
+nav > ul {
+    transition: 3s ease-in-out;
+}
+
+.mi {
+margin-left: 30%;
+margin-bottom: 10px;
+border-radius: 10px 10px 10px 10px ;
+box-shadow: 1px 1px 1px 1px black;
+padding: 0.2%;
+background-color: bisque;
+}
